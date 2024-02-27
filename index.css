@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+header {
+    /* width: 20px; */
+    /* height: auto; */
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 2px solid #b4b1b1; 
+}
+
+header img {
+    max-width: 150px;
+    height: auto;
+}
+
+.logo-img {
+    /* width: 150px; */
+    margin-left: 12px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    margin-top: 12px;
+    margin-right: 12px;
+    /* padding-top: 10px; */
+}
+
+.above-main-photo-container{
+    /* background-color: grey; */
+    display: flex;
+    padding: 10px;
+}
+
+.van-gogh-avatar-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    /* margin: 20px; */
+}
+
+.profile-name-and-location {
+    padding-left: 15px;
+    /* font-family: sans-serif; */
+    /* font-family: "Source Sans 3", sans-serif; */
+}
+.profile-name-and-location h1 {
+    margin-bottom: 0;
+    /* padding-bottom: 5px; */
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.profile-name-and-location p {
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.main-img {
+    width: 100%;
+}
+
+.main-img:hover {
+    cursor: pointer;
+}
+
+.icons {
+    padding-top: 16px;
+    padding-left: 10px;
+}
+
+.icons img{
+    max-width: 50px;
+    padding-left: 10px;
+}
+
+/* .heart-icon: */
+
+.icons img:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.bottom-text {
+    font-weight: bold;
+    padding-left: 20px;
+    border-bottom: 2px solid #b4b1b1;
+}
+
+/* .bottom-text p {
+    margin: 0; */
+    /* margin-top: 10px;
+} 
+*/
+
+.bottom-text span {
+    font-weight: normal;
+}
+
+.transparent-background {
+    background-color: white;
+}
